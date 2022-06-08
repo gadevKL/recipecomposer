@@ -243,8 +243,6 @@ const Filling = (props) => {
   }
 
   const handleBrief = () => {
-    console.log(briefText.current.value)
-
     db.collection("recipe_method").doc(page.code).set({
       brief: briefText.current.value
     }, { merge: true });
