@@ -1,0 +1,28 @@
+.pointHover {cursor:pointer}
+
+.card {
+  border: 0px solid rgb(245, 245, 245);  /* JUST TO LOOK COOL */
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+  transition: all .18s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 16px 32px;
+  transform: translate3d(0px, -1px, 0px);
+}
+
+.up:hover {
+  transform: translate3d(0px, 1px, 0px);
+}
+
+.lg{
+  max-height: 80vh;
+  overflow-y:scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.lgh{
+  max-height: 80vh;
+  overflow-y:scroll;
+  -webkit-overflow-scrolling: touch;
+}
